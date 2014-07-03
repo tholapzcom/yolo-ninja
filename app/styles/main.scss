@@ -1,0 +1,134 @@
+$icon-font-path: "../styles/fonts/";
+$font-stack: Helvetica, sans-serif;
+$primary-color: #333;
+$headline-color: #555;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+// bower:scss
+@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap.scss';
+// endbower
+
+/* Globals
+-------------------------------------------------- */
+body {
+  font-family: $font-stack;
+  font-size: $font-size-base;
+  line-height:1;
+  color: $primary-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headline-color;
+}
+
+img {
+  @extend .img-responsive;
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  @extend .form-control;
+}
+select {
+  @extend .form-control;
+}
+.btn {
+  @extend .btn-default;
+}
+button {
+  @extend .btn;
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Modals
+-------------------------------------------------- */
+.modal-window {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+}
+.modal-window .modal-wrapper {
+  display: table;
+  height: 100%;
+  margin: 0 auto;
+}
+.modal-window .modal-wrapper .modal-layout {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: middle;
+}
+.modal-window .modal-wrapper .modal-layout .modal-content {
+  width: 400px;
+  padding: 15px;
+  background: #fff;
+}
+.modal-window .modal-wrapper .modal-layout .modal-content h1 {
+  font: 18px "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+/* Views
+-------------------------------------------------- */
+.view-home {
+  text-align:center;
+}
+
+/* Media Queries
+-------------------------------------------------- */
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) { }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) { }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) { }
+
+/* We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices. */
+@media (max-width: $screen-xs-max) { }
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { }
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) { }
+@media (min-width: $screen-lg-min) { }
+
+
+

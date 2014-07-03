@@ -1,0 +1,68 @@
+{
+    "data" : [],
+    "text" : {
+      "view_home": {
+        "headline1": "Always a pleasure scaffolding your apps.",
+        "headline2": "Try these default modals views:",
+        "buttons": {
+          "error": {
+            "text": "ERROR",
+            "route": "error/generic",
+            "display": "true"
+          },
+          "loading": {
+            "text": "LOADING",
+            "route": "loading/generic",
+            "display": "true"
+          }
+        }
+      },
+      "views_error": {
+        "generic": {
+          "headline1": "Error",
+          "button": {
+            "text": "Close",
+            "route": "home",
+            "display": "true"
+          },
+          "paragraph1": "Sorry but we are unable to process your request at this time."
+        }
+      },
+      "views_loading": {
+        "generic": {
+          "headline1": "Gathering Data",
+          "headline2": "Loading...",
+          "paragraph1": "We are attempting to process your request at this time."
+        }
+      }
+    },
+    "css" : {},
+    "settings" : {
+        "window_status" : 0,
+        "apiKey" : "",
+        "secretKey" : "",
+        "episode_id" : "",
+        "countries" : "",
+        "google_analytics" : "UA-41400005-1",
+        "vote_limit" : ""
+    },
+    "social" : {
+        "fb" : {
+            "id" : "314991428663088",
+            "scope" : "email",
+            "share" : {
+                "name" : "",
+                "showURL" : "",
+                "link" : "",
+                "caption" : "",
+                "text" : "",
+                "picture" : "",
+                "redirect_uri" : "",
+                "description" : ""
+            }
+        },
+        "twitter" : {
+            "tweet" : ""
+        }
+    }
+}

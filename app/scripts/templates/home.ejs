@@ -1,0 +1,5 @@
+<h1><%= headline1 %></h1>
+<h2><%= headline2 %></h2>
+<% _.forEach(buttons, function (button, key) { %>
+<a href="#<%= button.route %>" class="btn<%= (button.display === 'true')? '' : ' hidden' %><%= ' route-'+key %>"><%= button.text %></a>
+<% }) %>

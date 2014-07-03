@@ -1,0 +1,18 @@
+{
+  "generator-telescope-app": {
+    "appName": "Tholapz",
+    "appPath": "app",
+    "facebookId": "314991428663088",
+    "widgetId": "data/data.json",
+    "gaId": "UA-41400005-1",
+    "homepageUrl": "http://www.tholapz.com",
+    "gitUrl": "https://github.com/tholapzcom/yolo-ninja.git",
+    "testFramework": "mocha",
+    "templateFramework": "lodash",
+    "includeBootstrap": true,
+    "includeSass": true,
+    "includeLibSass": false,
+    "includeRubySass": true,
+    "includeCryptoJS": false
+  }
+}
